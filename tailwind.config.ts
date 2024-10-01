@@ -9,8 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        darkBlue: "#324152",
+        grayishBlue: "#67727E",
+        lightGray: "#EAECF1",
+        veryLightGray: "#F5F6FA",
+        moderateBlue: "#5457B6",
+        softRed: "#ED6468",
+        lightGrayishBlue: "#C3C4EF",
+        paleRed: "#FFB8BB",
       },
     },
   },
