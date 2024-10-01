@@ -3,7 +3,7 @@ import User from "@/models/User";
 
 async function loadUser() {
 	await connectToDatabase();
-	const user = await User.findOne({});
+	const user = await User.find();
 	return user;
 }
 
