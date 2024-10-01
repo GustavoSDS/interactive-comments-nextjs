@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Rubik';
-  src: url('./assets/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  src: url('/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
 }
 
 @layer base {

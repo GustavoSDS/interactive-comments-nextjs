@@ -12,7 +12,7 @@
 # next.js
 /.next/
 /out/
-
+*/fonts/static/*.ttf
 # production
 /build
 

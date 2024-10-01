@@ -4,8 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
 	title: "Interactive Comments",
 	description: "Interactive Comments with Next.js",
+	icons: {
+		icon: "/images/social-preview.png",
+	},
 	twitter: {
-		images: "/assets/images/social-preview.png",
+		images: "/images/social-preview.png",
 		card: "summary_large_image",
 		creator: "@juliusomo",
 		site: "@juliusomo",
@@ -13,7 +16,7 @@ export const metadata: Metadata = {
 		description: "Interactive Comments with Next.js",
 	},
 	openGraph: {
-		images: "/assets/images/social-preview.png",
+		images: "/images/social-preview.png",
 		type: "website",
 		url: "https://interactive-comments-nextjs-6cnxsd2dp.vercel.app/",
 		siteName: "Interactive Comments with Next.js",

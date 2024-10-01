@@ -1,11 +1,21 @@
-import mongoose from 'mongoose';
+import mongoose, { Schema, Document } from 'mongoose';
 
-const userSchema = new mongoose.Schema({
+// Interfaz para User
+export interface IUser extends Document {
     image: {
-        png: String,
-        webp: String
+        png: string;
+        webp: string;
+    };
+    username: string;
+}
+
+// Esquema para User
+const UserSchema: Schema = new Schema({
+    image: {
+        png: { type: String, required: true },
+        webp: { type: String, required: true }
     },
-    username: String
+    username: { type: String, required: true }
 });
 
-export default mongoose.models.User || mongoose.model('User', userSchema);
+export default mongoose.models.User ?? mongoose.model<IUser>('User', UserSchema);
